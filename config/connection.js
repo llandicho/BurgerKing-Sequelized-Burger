@@ -3,6 +3,7 @@
 // Node Dependency
 var mysql = require('mysql');
 var connection;
+var Sequelize = require('sequelize'), connection;
 
 // For Heroku Deployment
 if(process.env.JAWSDB_URL){
